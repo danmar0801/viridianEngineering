@@ -317,14 +317,13 @@ button a {
     background-repeat: no-repeat;
     background-position: center;
     color: var(--white);
-    margin-bottom: 3vh;
 }
 
 .Details {
     display: flex;
     background-color: var(--white);
     align-items: flex-start;
-    padding: 4vh 10vw;
+    padding: 2vh 10vw;
 }
 
 .Details p a {
@@ -338,7 +337,7 @@ button a {
 }
 
 .Details h3 {
-    padding: 1vh 0vw;
+    padding: 0vh 0 1vh 0vw;
 }
 
 #MES {

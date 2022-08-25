@@ -120,12 +120,12 @@
 /*Hero*/
 
 h2 {
-    font-size: 2rem;
+    font-size: 2em;
     text-align: center;
 }
 
 h3 {
-    font-size: 1.7rem;
+    font-size: 3.5vh;
     font-weight: 600;
     text-align: center;
     letter-spacing: 2px;
@@ -133,7 +133,7 @@ h3 {
 
 h4 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5vh;
     font-weight: 500;
 }
 
@@ -365,8 +365,12 @@ button a {
     background-image: url(cqv.jpg);
 }
 
+#txt h2 {
+    text-align: left;
+}
+
 #CSV {
-    background-image: url(csv.jpeg);
+    background-image: url(csv.jpg);
 }
 
 .collapsible {

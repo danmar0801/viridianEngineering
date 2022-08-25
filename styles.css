@@ -149,7 +149,16 @@ p {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.5rem;
-    text-align: center;
+}
+
+li {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+ul {
+    list-style: inside;
 }
 
 button {
@@ -224,6 +233,10 @@ button a {
 #about {
     background-color: var(--white);
     display: flex;
+}
+
+#about p {
+    text-align: center;
 }
 
 #about div {
@@ -323,7 +336,7 @@ button a {
     display: flex;
     background-color: var(--white);
     align-items: flex-start;
-    padding: 2vh 10vw;
+    padding: 2vh 5vw;
 }
 
 .Details p a {
@@ -334,6 +347,10 @@ button a {
 .Details p {
     align-items: flex-start;
     text-align: left;
+}
+
+#Details ul {
+    margin: 1vw;
 }
 
 .Details h3 {
@@ -350,4 +367,38 @@ button a {
 
 #CSV {
     background-image: url(csv.jpeg);
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.active .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+.content ul li {
+    padding: 2px;
 }

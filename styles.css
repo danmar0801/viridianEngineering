@@ -187,6 +187,25 @@ button a {
     background-color: var(--white);
 }
 
+#margin {
+    margin-bottom: 10px;
+}
+
+#margin p {
+    text-align: center;
+}
+
+#margin2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: var(--white);
+    background-color: var(--dark-grey);
+}
+
+#margin2 p {
+    text-align: center;
+}
+
 
 /*Landing*/
 
@@ -213,6 +232,10 @@ button a {
 #normal {
     font-weight: 400;
     font-size: 28px;
+}
+
+#center h2 {
+    text-align: center;
 }
 
 #Landing div {

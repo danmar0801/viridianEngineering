@@ -252,10 +252,10 @@ a.nav-link {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     align-items: center;
-    width: 80vw;
+    width: 70vw;
 }
 
 footer {
@@ -364,4 +364,39 @@ button.buttons1 {
     display: flex;
     padding-bottom: 15px;
     justify-content: center;
+}
+
+.listrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+}
+
+.listcolumn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding: 0 5px;
+}
+
+.listcard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 30px;
+}
+
+.listcard h3 {
+    color: var(--teal);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 769px) {
+    .listrow {
+        flex-direction: column;
+    }
 }

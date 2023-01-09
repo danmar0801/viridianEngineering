@@ -176,7 +176,7 @@ a.nav-link {
 
 .section-title {
     font-size: 28px;
-    margin-bottom: 13px;
+    margin-bottom: 23px;
     padding-bottom: 11px;
     display: inline-block;
     position: relative;
@@ -215,7 +215,7 @@ a.nav-link {
 }
 
 .info {
-    margin-bottom: 30px;
+    margin-bottom: 5vh;
 }
 
 .accordion {
@@ -255,7 +255,7 @@ a.nav-link {
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    width: 70vw;
+    width: 50vw;
 }
 
 footer {
@@ -395,8 +395,34 @@ button.buttons1 {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 769px) {
+.rowitem h4 {
+    color: var(--teal);
+}
+
+.rowitem {
+    text-align: center;
+    width: 30%;
+    padding: 0 5px;
+}
+
+.rowdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 799px) {
     .listrow {
         flex-direction: column;
+    }
+    .rowdiv {
+        flex-direction: column;
+    }
+    .rowitem {
+        width: 100%;
+    }
+    .row1 {
+        width: 70vw;
     }
 }

@@ -426,3 +426,8 @@ button.buttons1 {
         width: 70vw;
     }
 }
+
+.contact-btn {
+    background-color: var(--teal);
+    color: var(--white);
+}

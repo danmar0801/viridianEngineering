@@ -431,3 +431,17 @@ button.buttons1 {
     background-color: var(--teal);
     color: var(--white);
 }
+
+.contact-btn:hover {
+    background-color: #064b34;
+    color: var(--white);
+}
+
+.succ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100vh;
+}

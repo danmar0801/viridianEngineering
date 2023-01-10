@@ -252,7 +252,7 @@ a.nav-link {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     align-items: center;
     width: 50vw;
@@ -422,9 +422,6 @@ button.buttons1 {
     .rowitem {
         width: 100%;
     }
-    .row1 {
-        width: 70vw;
-    }
 }
 
 .contact-btn {
@@ -444,4 +441,10 @@ button.buttons1 {
     align-items: center;
     flex-wrap: nowrap;
     height: 100vh;
+}
+
+.flex_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
